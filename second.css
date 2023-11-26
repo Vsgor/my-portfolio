@@ -118,3 +118,65 @@ body{
     height: fit-content;
     align-self: center;
 }
+
+/* CONTACT-ME */
+.contact-me{
+    display: block;
+}
+
+.flex-wrapper{
+    display: flex;
+    align-content:center;
+}
+
+.contact-form{
+    display: grid;
+    width: 100%;
+    align-self: center;
+}
+
+.contact-form input{
+    width: auto;
+    height: 4em;
+    margin: 2em 0;
+    padding: 0 2em;
+}
+
+.contact-button{
+    justify-self:center;
+    background-color: white;
+    height: 4em;
+    width: 12em;
+    font-size: medium;
+}
+
+.contact-form .message{
+    overflow: hidden;
+    font-family: 'Poppins';
+    text-align: start;
+    width: auto;
+    min-height: 8em;
+    margin: 2em 0;
+    padding: 1em 2em;
+    resize: none;
+}
+
+.programmer{
+    height:fit-content;
+    max-width:60%;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    display:block;
+    background-color: #FFD69633;
+}
+.upper-footer{
+    display:flex;
+}
+.line{
+}
+
