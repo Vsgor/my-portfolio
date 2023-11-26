@@ -18,7 +18,7 @@ button{
 
 .part{
     margin-top: 10em;
-    padding: 3em 2em;
+    padding: 2em;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -213,5 +213,43 @@ button{
 }
 
 .line{
+}
+
+
+.subscribe-wrapper{
+    width: 21em;
+    height: 3em;
+    display: flex;
+}
+
+.subscribe-form{
+    height: fit-content;
+}
+
+.footer .email {
+    padding-left:1em;
+    border-radius: 15px;
+    height: 3em;
+    width: 15em;
+    font-size:15px;
+    background-color:black;
+    color:white;
+    border: none;
+}
+
+.subscribe-button {
+    z-index: 100;
+    right: 5em;
+    border: none;
+    font-size:medium;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 5em;
+    height: 3em;
+    background-color: #F965FC;
+    color: white;
+    border-radius: 15px;
 }
 
