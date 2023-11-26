@@ -31,8 +31,11 @@
                 </div>
                 <p>Lorem Ipsum dolar sit amet, consectetur adipicsing elit.
                     Locus odio et, plateo erat est sed turpis hoc equit</p>
-                <button>Hire me</button>
-                <button>My Projects</button>
+
+                <div class="flex-wrapper">
+                    <button class="hire-me-button bulgy" onclick="location.href='#contact-me'">Hire me</button>
+                    <button class="my-projects-button bulgy" onclick="location.href='#my-projects'">My Projects</button>
+                </div>
             </section>
 
             <img class="my-photo" src="resources/My-photo.png" alt="А тут должен быть я">
@@ -41,12 +44,10 @@
         <div class="about-me part" id="about-me">
             <section class="text-section">
                 <h2 class="category-header">About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has .</p>
+                <button class="hire-me-button bulgy" onclick="location.href='#contact-me'">Hire me</button>
             </section>
 
             <img class="juggler-photo" src="resources/juggler.png" alt="А он хорош">
@@ -80,10 +81,11 @@
 
             <div class="flex-wrapper">
                 <form class="contact-form">
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <textarea class="message" placeholder="Message..." required></textarea>
-                    <button class="contact-button" name="contact-button" type="submit" formmethod="post" formtarget="_self">Contact
+                    <input class="bulgy" type="email" placeholder="Email" required>
+                    <input class="bulgy" type="password" placeholder="Password" required>
+                    <textarea class="message bulgy" placeholder="Message..." required></textarea>
+                    <button class="contact-button bulgy" name="contact-button" type="submit" formmethod="post"
+                            formtarget="_self">Contact
                     </button>
                 </form>
                 <img class="programmer" src="resources/proger.png" alt="Программер">
