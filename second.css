@@ -74,7 +74,7 @@ button{
     display: grid;
     align-content:center;
     text-align:left;
-    margin: 2em;
+    margin: 2em 2em 0 0;
 }
 
 .text-section p{
