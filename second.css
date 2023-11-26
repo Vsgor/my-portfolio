@@ -4,6 +4,10 @@ body{
     padding:0 2em
 }
 
+a {
+    text-decoration: none;
+}
+
 button{
     margin: 1em 0;
     height: 4em;
@@ -210,11 +214,8 @@ button{
 
 .upper-footer{
     display:flex;
+    min-height: 15em;
 }
-
-.line{
-}
-
 
 .subscribe-wrapper{
     width: 21em;
@@ -253,3 +254,36 @@ button{
     border-radius: 15px;
 }
 
+.menu {
+    min-width: 7em;
+    width:fit-content;
+    margin: 1em 3em;
+}
+
+.menu div{
+    margin:1em 0em;
+}
+.footer a {
+    color: black;
+}
+
+.footer h5 {
+    margin: 0;
+}
+
+.social-media{
+    display: flex;
+}
+.down-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    align-self: center;
+}
+
+.social img {
+    width: 2em;
+    margin: 2em;
+}
